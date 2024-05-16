@@ -1,0 +1,105 @@
+.nav{
+     
+    width: 100%;
+    height: 100px;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid gray;
+    font-weight: bold;
+    h1{
+        font-size: 40px;
+    }
+    .p{
+        color:rgb(197, 158, 50) ;
+    }
+
+   
+    .basliq{
+       border-right: 1px solid gray;
+        
+        width: 200px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .elaqe{
+        border-left: 1px solid gray;
+        
+        width: 300px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        :hover{
+            color: rgb(197, 158, 50);
+        }
+        a{
+            color: white;
+        }
+    }
+}
+@media screen and (max-width: 700px){
+    .nav{
+     
+        width: 100%;
+        height: 100px;
+        display: flex;
+        top: 0;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 1;
+        border: 1px solid gray;
+        font-weight: bold;
+        h1{
+            font-size: 40px;
+        }
+        .p{
+            color:rgb(197, 158, 50) ;
+        }
+    
+       
+        .basliq{
+           border-right: 1px solid gray;
+            
+            width: 200px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .elaqe{
+            display: none;
+    
+        }
+        .link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            :hover{
+                color: rgb(197, 158, 50);
+            }
+            a{
+                color: white;
+            }
+        }
+    }
+    
+}
+
+
+
